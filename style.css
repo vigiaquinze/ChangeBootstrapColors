@@ -41,9 +41,6 @@
 body {
     margin: 0px;
 }
-.fullSite{
-    margin: 0px 100px;
-}
 .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg: #fd0d2d;
