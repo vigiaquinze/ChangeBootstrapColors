@@ -1,20 +1,19 @@
 :root, [data-bs-theme=light] {
     --bs-primary: #fd0d2d;
     --bs-secondary: #0088ff;
-    --bs-success: #198754;
-    --bs-info: #0dcaf0;
-    --bs-warning: #ffc107;
-    --bs-danger: #dc3545;
-    --bs-light: #f8f9fa;
-    --bs-dark: #212529;
+    --bs-info: #fecb02;
     --bs-primary-text-emphasis: #810818;
     --bs-secondary-text-emphasis: #004e93;
+    --bs-info-text-emphasis: #806600;
     --bs-primary-bg-subtle: #fd0d2d6f;
     --bs-secondary-bg-subtle: #0088ff7c;
+    --bs-info-bg-subtle: #8066007b;
     --bs-primary-border-subtle: #fd0d2d6f;
     --bs-secondary-border-subtle: #0088ff7c;
+    --bs-info-border-subtle: #8066007b;
     --bs-primary-rgb: 253, 13, 45;
     --bs-secondary-rgb: 0, 136, 255;
+    --bs-info-rgb: 254, 203, 2;
     --bs-font-sans-serif: 'Geologica', sans-serif;
 }
 [data-bs-theme=dark] {
@@ -76,6 +75,22 @@ body {
     --bs-btn-disabled-bg: #0088ff;
     --bs-btn-disabled-border-color: #0088ff;
 }
+.btn-info {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #fecb02;
+    --bs-btn-border-color: #fecb02;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #806600;
+    --bs-btn-hover-border-color: #806600;
+    --bs-btn-focus-shadow-rgb: 11,172,204;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #483a00;
+    --bs-btn-active-border-color: #483a00;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #fecb02;
+    --bs-btn-disabled-border-color: #fecb02;
+}
 .btn-outline-primary {
     --bs-btn-color: #fd0d2d;
     --bs-btn-border-color: #fd0d2d;
@@ -106,6 +121,22 @@ body {
     --bs-btn-disabled-color: #0088ff;
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: #0088ff;
+    --bs-gradient: none;
+}
+.btn-outline-info {
+    --bs-btn-color: #fecb02;
+    --bs-btn-border-color: #fecb02;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #fecb02;
+    --bs-btn-hover-border-color: #fecb02;
+    --bs-btn-focus-shadow-rgb: 13,202,240;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #fecb02;
+    --bs-btn-active-border-color: #fecb02;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fecb02;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #fecb02;
     --bs-gradient: none;
 }
 .accordion {

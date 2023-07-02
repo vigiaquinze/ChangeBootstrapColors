@@ -63,6 +63,7 @@
                 <h1>Button</h1>
                 <button type="button" class="btn btn-primary">Primary</button>
                 <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-info">Info</button>
             </div>
         </div>
         <br>
@@ -72,7 +73,7 @@
                 <div class="btn-group" role="group" aria-label="Basic outlined example">
                     <button type="button" class="btn btn-outline-primary">Primary</button>
                     <button type="button" class="btn btn-outline-secondary">Secondary</button>
-                    <button type="button" class="btn btn-outline-primary">Tertiary</button>
+                    <button type="button" class="btn btn-outline-info">Tertiary</button>
                 </div>
             </div>
         </div>
@@ -156,6 +157,9 @@
                 <div class="alert alert-secondary" role="alert">
                     A simple secondary alert—check it out!
                 </div>
+                <div class="alert alert-info" role="alert">
+                    A simple info alert—check it out!
+                  </div>
             </div>
         </div>
         <br>
@@ -164,6 +168,7 @@
                 <h1>Badge</h1>
                 <h1>Example heading <span class="badge bg-primary">New</span></h1>
                 <h2>Example heading <span class="badge bg-secondary">New</span></h2>
+                <h3>Example heading <span class="badge bg-info">New</span></h3>
             </div>
         </div>
         <br>
@@ -217,11 +222,19 @@
                         </div>
                         <span class="badge bg-secondary rounded-pill">14</span>
                     </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Subheading</div>
+                            Content for list item
+                        </div>
+                        <span class="badge bg-info rounded-pill">14</span>
+                    </li>
                 </ol>
                 <br>
                 <ul class="list-group">
                     <li class="list-group-item list-group-item-primary">A simple primary list group item</li>
                     <li class="list-group-item list-group-item-secondary">A simple secondary list group item</li>
+                    <li class="list-group-item list-group-item-info">A simple tertiary list group item</li>
                   </ul>
             </div>
         </div>
@@ -233,6 +246,9 @@
                     <span class="visually-hidden">Loading...</span>
                   </div>
                   <div class="spinner-border text-secondary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-info" role="status">
                     <span class="visually-hidden">Loading...</span>
                   </div>
             </div>
