@@ -16,29 +16,18 @@
     --bs-info-rgb: 254, 203, 2;
     --bs-font-sans-serif: 'Geologica', sans-serif;
 }
-[data-bs-theme=dark] {
-    color-scheme: dark;
-    --bs-body-color: #adb5bd;
-    --bs-body-color-rgb: 173,181,189;
-    --bs-body-bg: #810818;
-    --bs-body-bg-rgb: 33,37,41;
-    --bs-emphasis-color: #fff;
-    --bs-emphasis-color-rgb: 255,255,255;
-    --bs-secondary-color: #c70d26;
-    --bs-secondary-color-rgb: 173,181,189;
-    --bs-secondary-bg: #004e93;
-    --bs-secondary-bg-rgb: 0, 78, 147;
-    --bs-tertiary-color: #fecb02;
-    --bs-tertiary-color-rgb: 173,181,189;
-    --bs-tertiary-bg: #806600;
-    --bs-tertiary-bg-rgb: 254, 203, 2;
-    --bs-primary-text-emphasis: #ff687c;
-    --bs-secondary-text-emphasis: #78c0ff;
-    --bs-border-color: #fd0d2d6f;
-    --bs-border-color-translucent: rgba(253, 13, 45, 0.435);
-}
+
 body {
     margin: 0px;
+}
+.fullSite{
+    margin: 0px 180px;
+}
+.navbar{
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-color: #ffffffc6;
+    --bs-navbar-disabled-color: #ffffff58;
+    --bs-navbar-hover-color: #ffffff58;
 }
 .btn-primary {
     --bs-btn-color: #fff;
