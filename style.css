@@ -15,18 +15,10 @@
     --bs-info-border-subtle: #ff78907c; /*TERTIARY COLOR BORDER SUBTLE*/
     --bs-primary-rgb: 253, 13, 45; /*PRIMARY COLOR IN RGB*/
     --bs-secondary-rgb: 0, 136, 255; /*SECONDARY COLOR IN RGB*/
-    --bs-info-rgb: 254, 203, 2; /*TERTIARY COLOR IN RGB*/
-    --bs-font-sans-serif: 'Geologica', sans-serif; /*FONT*/
+    --bs-info-rgb: 255, 120, 144; /*TERTIARY COLOR IN RGB*/
+    --bs-font-sans-serif: 'Lexend', sans-serif; /*FONT*/
 }
 
-body {
-    margin: 0px;
-}
- /*DELETE THIS*/
-.fullSite{
-    margin: 0px 180px;
-}
- /*DELETE THIS*/
 .navbar{
     --bs-navbar-active-color: #fff; /*NAVBAR ACTIVE TEXT COLOR*/
     --bs-navbar-color: #ffffffc6; /*NAVBAR TEXT COLOR*/
@@ -149,7 +141,7 @@ body {
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #fd0d2d25;
 }
 .form-control:focus {
-    border-color: #ffffff85;
-    -webkit-box-shadow: 0 1px 1px 3px #ffffff28;
-            box-shadow: 0 1px 1px 3px #ffffff28;
+    border-color: #0000000f;
+    -webkit-box-shadow: 0 1px 0px 3px #00000028;
+            box-shadow: 0 1px 0px 3px #00000028;
   }
